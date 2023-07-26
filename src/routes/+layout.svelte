@@ -7,5 +7,5 @@
     <a href="{base}/about">about</a>
 </nav>
 
-<!-- here the page content will be rendered -->
+<!-- the page content will be rendered here -->
 <slot />
