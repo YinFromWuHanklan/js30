@@ -22,9 +22,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  runs-on: ubuntu-latest
   # Build job
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
